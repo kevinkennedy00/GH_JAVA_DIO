@@ -19,7 +19,7 @@ public class MetodosGestaoHospitalar {
     private List<Procedimento> procedimentos = new ArrayList<>();
 
     public static void adicionarNovoPaciente(Scanner scanner) {
-        Scanner scanner = new Scanner(System.in);
+        scanner = new Scanner(System.in);
 
         String cpf = validarCpf("Digite o CPF do paciente: ", scanner);
         if (cpf == null) {
