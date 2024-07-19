@@ -29,7 +29,7 @@ public class SimuladorFrontEnd {
             scanner.nextLine();  // Consome a nova linha
 
             if (opcao == 1) {
-                MetodosGestaoHospitalar.adicionarNovoPaciente();
+                MetodosGestaoHospitalar.adicionarNovoPaciente(scanner);
             } else if (opcao == 2) {
                 metodos.adicionarNovoMedico(scanner);
             } else if (opcao == 3) {
