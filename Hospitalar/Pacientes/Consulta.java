@@ -11,7 +11,7 @@ public class Consulta {
     private LocalTime horario;
     private String protocolo;
 
-    public Consulta(int id, String cpfPaciente, int especialidade, LocalDate dataConsulta, LocalTime horario, String protocolo) {
+    public Consulta(String cpfPaciente, int especialidade, LocalDate dataConsulta, LocalTime horario, String protocolo) {
         this.id = id;
         this.cpfPaciente = cpfPaciente;
         this.especialidade = especialidade;

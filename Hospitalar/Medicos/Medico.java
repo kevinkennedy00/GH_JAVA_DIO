@@ -11,12 +11,12 @@ public class Medico {
     private int especialidade;
     private String telefone;
 
-    public Medico(String nomeCompleto, int idade, String cpf, String nomeDaRua, String numeroDaCasa, String cep, String crm, int especialidade, String telefone) {
+    public Medico(String nomeCompleto, int idade, String cpf, String nomeDaRua, int numeroDaCasa, String cep, String crm, int especialidade, String telefone) {
         this.nomeCompleto = nomeCompleto;
         this.idade = idade;
         this.cpf = cpf;
         this.nomeDaRua = nomeDaRua;
-        this.numeroDaCasa = numeroDaCasa;
+        this.numeroDaCasa = String.valueOf(numeroDaCasa);
         this.cep = cep;
         this.crm = crm;
         this.especialidade = especialidade;

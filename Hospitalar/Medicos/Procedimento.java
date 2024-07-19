@@ -6,7 +6,7 @@ public class Procedimento {
     private String protocoloConsulta;
     private String procedimento;
 
-    public Procedimento(int id, String cpfPaciente, String protocoloConsulta, String procedimento) {
+    public Procedimento(String cpfPaciente, String protocoloConsulta, String procedimento) {
         this.id = id;
         this.cpfPaciente = cpfPaciente;
         this.protocoloConsulta = protocoloConsulta;
