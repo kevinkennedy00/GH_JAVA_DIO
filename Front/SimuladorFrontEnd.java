@@ -26,7 +26,7 @@ public class SimuladorFrontEnd {
 
             System.out.print("Escolha uma opção: ");
             int opcao = scanner.nextInt();
-            scanner.nextLine();  // Consome a nova linha
+            scanner.nextLine();  
 
             if (opcao == 1) {
                 MetodosGestaoHospitalar.adicionarNovoPaciente(scanner);
